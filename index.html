@@ -103,40 +103,55 @@
           <div class="col-4 col-6-medium col-12-small">
             <article class="box style2">
               <a href="#" class="image featured"
-                ><img src="images/pic01.jpg" alt=""
+                ><img src="images/MachineLearnIcon.png" alt="ML/DL"
               /></a>
-              <h3><a href="#">Magna feugiat</a></h3>
-              <p>Ornare nulla proin odio consequat.</p>
+              <h3><a href="https://github.com/StevanusO/CNN_ImageClass_RockPaperScissors.git">Image Classification</a></h3>
+              <p>Target : ["Rock", "Paper", "Scissor"]<br>
+                Dataset : Kaggle/Dicoding<br>
+                Train/Test : 60%/40%
+              </p>
             </article>
           </div>
           <div class="col-4 col-6-medium col-12-small">
             <article class="box style2">
               <a href="#" class="image featured"
-                ><img src="images/pic02.jpg" alt=""
+                ><img src="images/MachineLearnIcon.png" alt="ML/DL"
               /></a>
-              <h3><a href="#">Veroeros primis</a></h3>
-              <p>Ornare nulla proin odio consequat.</p>
+              <h3><a href="https://github.com/StevanusO/NLP-Dicoding-Proyek-1.git">Spam Mails Detections</a></h3>
+              <p>
+                Dicoding Submission 1<br>
+                Target : ["Spam", "Ham"]<br>
+                Dataset : Kaggle<br>
+                Train/Test : 80%/20%
+              </p>
             </article>
           </div>
           <div class="col-4 col-6-medium col-12-small">
             <article class="box style2">
               <a href="#" class="image featured"
-                ><img src="images/pic03.jpg" alt=""
+                ><img src="images/MachineLearnIcon.png" alt="ML/DL"
               /></a>
-              <h3><a href="#">Lorem ipsum</a></h3>
-              <p>Ornare nulla proin odio consequat.</p>
+              <h3><a href="https://github.com/StevanusO/TimeSeries-Dicoding-Proyek-2.git">Time Series Prediction</a></h3>
+              <p>Dicoding Submission 2<br>
+                Target : ["Temp"]<br>
+                Dataset : Kaggle<br>
+                Train/Test : 80%/20%</p>
             </article>
           </div>
           <div class="col-4 col-6-medium col-12-small">
             <article class="box style2">
               <a href="#" class="image featured"
-                ><img src="images/pic04.jpg" alt=""
+                ><img src="images/MachineLearnIcon.png" alt=""
               /></a>
-              <h3><a href="#">Tempus dolore</a></h3>
-              <p>Ornare nulla proin odio consequat.</p>
+              <h3><a href="https://github.com/StevanusO/Image-Classification-Dicoding-Proyek-3.git">Rice Image Classification</a></h3>
+              <p>Dicoding Submission 3<br>
+                Target : ['Arborio', 'Basmati', 'Ipsala', 'Jasmine', 'Karacadag']<br>
+                Dataset : Kaggle<br>
+                Train/Test : 80%/20%</p>
             </article>
           </div>
-          <div class="col-4 col-6-medium col-12-small">
+          <!-- Another Project Coming Soon -->
+          <!-- <div class="col-4 col-6-medium col-12-small">
             <article class="box style2">
               <a href="#" class="image featured"
                 ><img src="images/pic05.jpg" alt=""
@@ -153,10 +168,9 @@
               <h3><a href="#">Sed amet ornare</a></h3>
               <p>Ornare nulla proin odio consequat.</p>
             </article>
-          </div>
+          </div> -->
         </div>
         <footer>
-          <p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p>
           <a href="#contact" class="button large scrolly"
             >Get in touch with me</a
           >
@@ -183,17 +197,18 @@
                   ><span class="label">Github</span></a
                 >
               </li>
-              <!--
-								<li><a href="#" class="icon solid fa-rss"><span>RSS</span></a></li>
-								<li><a href="#" class="icon brands fa-instagram"><span>Instagram</span></a></li>
-								<li><a href="#" class="icon brands fa-foursquare"><span>Foursquare</span></a></li>
-								<li><a href="#" class="icon brands fa-skype"><span>Skype</span></a></li>
-								<li><a href="#" class="icon brands fa-soundcloud"><span>Soundcloud</span></a></li>
-								<li><a href="#" class="icon brands fa-youtube"><span>YouTube</span></a></li>
-								<li><a href="#" class="icon brands fa-blogger"><span>Blogger</span></a></li>
-								<li><a href="#" class="icon brands fa-flickr"><span>Flickr</span></a></li>
-								<li><a href="#" class="icon brands fa-vimeo"><span>Vimeo</span></a></li>
-								-->
+              <input type="text" value="stevanusong8@gmail.com" id="gmail" hidden>
+              <li class="tooltip">
+                <a onclick="copyToClipboardGmail()" onmouseout="outMouse()" class="icon brands fa-google">
+                  <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+                </a>
+              </li>
+              <input type="text" value="stevanus.ong@binus.ac.id" id="outlook" hidden>
+              <li class="tooltip1">
+                <a onclick="copyToClipboardOutlook()" onmouseout="outMouse1()" class="icon light fa-envelope">
+                  <span class="tooltiptext1" id="myTooltip1">Copy to clipboard</span>
+                </a>
+              </li>
             </ul>
             <hr />
           </div>
@@ -214,5 +229,6 @@
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/clipboard.js"></script>
   </body>
 </html>
